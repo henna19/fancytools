@@ -38,9 +38,9 @@ else
 	git clone --single-branch --branch master https://github.com/henna19/fancytools.git
 fi
  
-
+cd ~/bin
 cp ~/src/fancytools/bin/updateFancyTools ~/bin/updateFancyTools
-
+chmod +x updateFancyTools
 
 
 
