@@ -15,7 +15,8 @@ else
 	mkdir ~/bin
 fi
 
-temp="~/bin"
+cd ~/bin
+temp=$~/bin
 if ! [[ $PATH =~ "$temp" ]]; then 
 	echo "export PATH=$PATH:$temp" >> "$FILE"
 fi  
